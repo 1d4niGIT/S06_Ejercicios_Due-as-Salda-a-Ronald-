@@ -1,0 +1,20 @@
+using NUnit.Framework;
+using UnityEngine;
+using System.Collections.Generic;
+
+public class Bloque1_2 : MonoBehaviour
+{
+    List <string> inventario = new List<string>();
+    void Start()
+    {
+        inventario.Add("lámpara");
+        inventario.Add("celular");
+        inventario.Add("reloj");
+    }
+
+    
+    void Update()
+    {
+        
+    }
+}
