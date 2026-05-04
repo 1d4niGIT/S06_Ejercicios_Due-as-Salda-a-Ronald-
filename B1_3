@@ -1,0 +1,16 @@
+using UnityEngine;
+
+public class Bloque1_3 : MonoBehaviour
+{
+    public int[] vidasJugador = new int[3] { 50, 100, 200 };
+    void Start()
+    {
+        
+    }
+
+    
+    void Update()
+    {
+        
+    }
+}
