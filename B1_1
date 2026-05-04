@@ -1,0 +1,16 @@
+using UnityEngine;
+
+public class Bloque1_1 : MonoBehaviour
+{
+    public int[] puntajes = new int[5];
+    void Start()
+    {
+        
+    }
+
+   
+    void Update()
+    {
+        
+    }
+}
