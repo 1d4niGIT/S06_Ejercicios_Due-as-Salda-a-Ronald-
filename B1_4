@@ -1,0 +1,21 @@
+using NUnit.Framework;
+using UnityEngine;
+using System.Collections.Generic;
+
+public class Bloque1_4 : MonoBehaviour
+{
+    public List<string> enemigos = new List<string>();
+    void Start()
+    {
+        enemigos.Add("Zerg");
+        enemigos.Add("Protoss");
+        enemigos.Add("Terran");
+        enemigos.Add("Therians");
+    } 
+
+    
+    void Update()
+    {
+        
+    }
+}
