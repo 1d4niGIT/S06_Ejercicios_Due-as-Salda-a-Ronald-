@@ -1,0 +1,18 @@
+using UnityEngine;
+
+public class Bloque1_5 : MonoBehaviour
+{
+    public int[] lista = new int[3] { 1, 2, 3 };
+    public int[] listavacia = new int[3];
+    void Start()
+    {
+        listavacia[0] = 4;
+        listavacia[1] = 5;
+    }
+
+    
+    void Update()
+    {
+        
+    }
+}
