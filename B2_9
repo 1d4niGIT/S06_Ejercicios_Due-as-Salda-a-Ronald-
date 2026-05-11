@@ -1,0 +1,23 @@
+using NUnit.Framework;
+using UnityEngine;
+using System.Collections.Generic;
+
+public class B2_9 : MonoBehaviour
+{
+    List<string> útiles = new List<string>();
+    void Start()
+    {
+        útiles.Add("cuaderno");
+        útiles.Add("lapiz");
+        útiles.Add("borrador");
+        útiles.Add("tijera");
+        //Borrar elemento
+        útiles.Remove("borrador");
+        Debug.Log($"Hay {útiles.Count} elementos en la lista");
+    }
+
+    void Update()
+    {
+        
+    }
+}
