@@ -1,0 +1,27 @@
+using UnityEngine;
+
+public class B3_11 : MonoBehaviour
+{
+    /*11 Comparar dos posiciones
+    Dado un array de 3 números, muestra cuál es mayor 
+    entre la posición 0 y la 1.*/
+    public int[] array = { 50, 30, 200 };
+    void Start()
+    {
+        int mayor = 0;
+         
+        foreach (int num in array)
+        {
+            if (mayor == 0 || num > mayor)
+            { 
+                mayor = num; 
+            }     
+        }
+        Debug.Log($"El número mayor es {mayor}");
+    }
+
+    void Update()
+    {
+        
+    }
+}
