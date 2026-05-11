@@ -1,0 +1,21 @@
+using UnityEngine;
+
+public class B3_13 : MonoBehaviour
+{
+    public string[] array = { "Juan", "Pepe", "Alex", "Diana" };
+    void Start()
+    {
+        string intercambio = " ";
+        intercambio = array[0];
+        array[0] = array[2];
+        array[2] = intercambio;
+
+        Debug.Log($"El array de la posición 0 es {array[0]} y el de la posición 2 es {array[2]}");
+      
+    }
+
+    void Update()
+    {
+        
+    }
+}
